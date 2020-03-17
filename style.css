@@ -1,5 +1,4 @@
 
-
 body {
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
@@ -42,6 +41,7 @@ body {
     display: flex;
     }
     
+    
 /* Navigation Bar*/
 
 nav ul {
@@ -71,12 +71,7 @@ nav ul {
  h2 {
      font-size: 3em; color: whitesmoke;
  }
- .link {
-    color:grey;
-    size: 5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
- }
+
  p {
      color: whitesmoke;
      size: 1em;
@@ -121,9 +116,14 @@ nav ul {
  .link {
      color:grey;
      size: 5em;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
      font-weight: 600;
  }
+
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
  p {
      color: whitesmoke;
      size: 1em;
