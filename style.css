@@ -1,0 +1,130 @@
+
+
+body {
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+ body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border-color: whitesmoke;
+    }
+
+#header {
+    border-style: double;
+    border-width: 1px 5px;
+    border-color: whitesmoke;
+    }
+
+#text {
+    border-style: double;
+    border-width: 1px 5px;
+    border-color: whitesmoke;
+    }
+
+.navbaritems {
+    border-style: double;
+    border-width: 1px 5px;
+    border-color: whitesmoke;
+    }
+
+.unitnavbar {
+    border-style: double;
+    border-width: 1px 5px;
+    border-color: whitesmoke;
+    }
+
+.container {
+    display: flex;
+    }
+    
+/* Navigation Bar*/
+
+nav ul {
+    display: flex;
+    padding: 4px 6px;
+ }
+ nav ul li a {
+   color: whitesmoke;
+   font-size: 18px;
+   text-decoration: none;
+   padding: 4px 6px;
+ 
+ }
+ nav ul li a:hover {
+     color: gray;
+     text-decoration: underline;
+ }
+ nav ul li {
+     list-style: none;
+     display:block;
+ }
+ h1 {
+     padding: 6px 8px;
+     font-size: 3em; color: whitesmoke;
+     color: whitesmoke
+ }
+ h2 {
+     font-size: 3em; color: whitesmoke;
+ }
+ .link {
+    color:grey;
+    size: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+ }
+ p {
+     color: whitesmoke;
+     size: 1em;
+ }
+
+ /* Unit Navigation Bar */
+
+ unit-nav ul {
+    display: flex;
+    padding: 4px 6px;
+ }
+ unit-nav ul li a {
+   color: whitesmoke;
+   font-size: 18px;
+   text-decoration: none;
+   padding: 4px 6px;
+ 
+ }
+ unit-nav ul li a:hover {
+     color: gray;
+     text-decoration: underline;
+ }
+ unit-nav ul li {
+     list-style: none;
+     display:block;
+ }
+ h1 {
+     padding: 6px 8px;
+     font-size: 4em;
+     color: whitesmoke
+ }
+ h2 {
+     font-size: 2em;
+     color: whitesmoke
+
+ }
+ h3 {
+    font-size: 1em;
+    
+
+ }
+ .link {
+     color:grey;
+     size: 5em;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 600;
+ }
+ p {
+     color: whitesmoke;
+     size: 1em;
+ }
